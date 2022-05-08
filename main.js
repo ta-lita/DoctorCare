@@ -4,7 +4,7 @@ onScroll();
 
 function onScroll(){
     showNavOnScroll();
-    showBacktoTopButton();
+    showBackToTopButton();
 
     activateMenuAtCurrentSection(home)
     activateMenuAtCurrentSection(services)
@@ -48,11 +48,11 @@ function showNavOnScroll(){
         navigation.classList.remove('scroll');
     }
 }
-function showBacktoTopButton() {
+function showBackToTopButton() {
     if (scrollY > 500) {
-      backtoTopButton.classList.add('show');
+      backToTopButton.classList.add('show');
     } else {
-      backtoTopButton.classList.remove('show');
+      backToTopButton.classList.remove('show');
     }
   }
 
