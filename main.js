@@ -48,14 +48,13 @@ function showNavOnScroll(){
         navigation.classList.remove('scroll');
     }
 }
-function showBackToTopButton() {
+  function showBackToTopButton() {
     if (scrollY > 500) {
-      backToTopButton.classList.add('show');
+      backToTopButton.classList.add('show')
     } else {
-      backToTopButton.classList.remove('show');
+      backToTopButton.classList.remove('show')
     }
   }
-
 function openMenu(){
     document.body.classList.add('menu-expanded');
 }
